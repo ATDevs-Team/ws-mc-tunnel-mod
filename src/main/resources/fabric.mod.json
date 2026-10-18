@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mc_ws_tunnel",
+  "version": "${version}",
+  "name": "Minecraft WebSocket Tunnel",
+  "description": "Forwards local Minecraft TCP connections through an authenticated WebSocket tunnel.",
+  "authors": ["ATDevs"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.atdevs.mctunnel.TunnelMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}
